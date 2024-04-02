@@ -1,10 +1,10 @@
 # Group Members 
 <table>
-  <th>
-    <td>Number</td>
-    <td>Name</td>
-    <td>ID number</td>
-  </th>
+  <tr>
+    <td><b>Number</b></td>
+    <td><b>Name</b></td>
+    <td><b>ID number</b></td>
+  </tr>
   <tr>
     <td>1</td>
     <td>Gerawork Aklilu G/yohannes</td>
