@@ -11,22 +11,22 @@
     <td>ATE/3243/14</td>
   </tr>
    <tr>
-    <td>1</td>
+    <td>2</td>
     <td>Hailemichale Lijalem Aytenew</td>
     <td>ATE/1051/14</td>
   </tr>
    <tr>
-    <td>1</td>
+    <td>3</td>
     <td>Natnael Yohannes Gensa </td>
     <td>ATE/0038/14</td>
   </tr>
    <tr>
-    <td>1</td>
+    <td>4</td>
     <td>Ruth Biniam Ketema</td>
     <td>ATE/0179/14</td>
   </tr>
    <tr>
-    <td>1</td>
+    <td>5</td>
     <td>Yonas Tessema Achule </td>
     <td>ATE/0419/14</td>
   </tr>
