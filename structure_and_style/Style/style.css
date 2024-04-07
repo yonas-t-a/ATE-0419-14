@@ -25,7 +25,7 @@ header{
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px ;
     background-color: #f5f5f7;
@@ -33,12 +33,12 @@ header{
 
 .logo{
     cursor: pointer;
-    
+    margin-right: auto;
 }
-
 .nav_pages li{
     display: inline-block;
     padding: 0 20px;
+    margin-left: 50px;
 }
 
 .nav_pages li a {
@@ -49,6 +49,7 @@ header{
     color: #06c;
 }
 button{
+    margin-left: 50px;
     padding: 9px 25px;
     background-color: #06c;;
     border: none;
