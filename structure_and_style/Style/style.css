@@ -28,7 +28,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 10px ;
-    background-color: #f5f5f7;
+    background-color: #b3b3b3;
 }
 
 .logo{
@@ -58,6 +58,63 @@ button{
     transition: all 0.3s ease 0s;
 }
 button a:hover{
-    color: #f5f5f7;
+    color: #b3b3b3;
     
+}
+body{
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    min-height: 100vh;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100x;
+    background-color: #b3b3b3;
+}
+footer .footer-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+footer .footer-container .sec h2{
+    position: relative;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 15px;  /*add */
+}
+footer .footer-container .sec h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #06c;
+}
+footer .footer-container .sec p{
+    color: black;
+}
+.sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 50px);
+    grid-gap: 10px;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: #06c;
+    /* display: grid; */
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
 }
