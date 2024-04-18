@@ -153,8 +153,22 @@ nav{
     background-color: #b3b3b3;
     border-radius: 30px;
     display: flex;
-    flex-direction: column;10%
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+}
+.course-ofdep-searchandsort{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    gap: 30px;
+    height: 40px;
+}
+.course-ofdep-searchandsort input{
+    border-radius: 30px;
+    border-color: black;    
+}
+.course-ofdep-searchandsort select{
+    border-color: black;
 }
