@@ -208,3 +208,75 @@ main > h1{
 .course-code{
     margin-left: 10px;
 }
+/* Resources Style */
+.resource-ofcourse{
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+}
+.course-syllabus{
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+}
+.course-syllabus > .course-syllabus-title,
+.course-book > .course-box-title,
+.course-video > .course-video-title,
+.course-audio > .course-audio-title,
+.course-exam-assignement-problemset > .course-exam-assignement-problemset-title,
+.course-additoinal-Resources > .course-additoinal-Resources-title
+{
+    border-bottom: solid #b3b3b3 2px;
+    margin-bottom: 20px;
+}
+.course-syllabus > .course-syllabus-title h2,
+.course-book > .course-box-title h2,
+.course-video > .course-video-title h2,
+.course-audio > .course-audio-title h2,
+.course-exam-assignement-problemset > .course-exam-assignement-problemset-title h2,
+.course-additoinal-Resources > .course-additoinal-Resources-title h2
+{
+    margin-bottom: 20px;
+}
+.course-syllabus > .course-syllabus-content{
+    display: flex;
+    height: 50px;
+    background-color: #b3b3b3;
+    border-radius: 30px;
+    border: solid black 1px;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+.course-syllabus > .course-syllabus-content > .sylabus-link{
+    width: 100%;
+    text-align: center;
+}
+.course-book > .course-book-list{
+    display: grid;
+    gap: 20px;
+}
+.course-book > .course-book-list > .course-one-book{
+    display: flex;
+    align-items: center;
+    background-color: #b3b3b3;
+    border-radius: 30px;  
+}
+.course-book > .course-book-list > .course-one-book > .book-name-and-info{
+    color: black;
+    width: 90%;
+    text-align: center;
+}
+.course-book > .course-book-list > .course-one-book > .book-name-and-info > .name-of-book{
+
+
+}
+.course-video > .course-Video-list{
+    display: grid;
+    grid-template-columns: auto;
+}
+.course-video > .course-Video-list > .course-one-Video{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
