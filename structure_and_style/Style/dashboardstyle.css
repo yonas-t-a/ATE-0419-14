@@ -14,6 +14,10 @@ body{
     grid-template-columns: 20rem 1fr;
     gap: 4rem;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 nav{
     position: sticky;
     top: 0;
@@ -209,7 +213,9 @@ main > h1{
     margin-left: 10px;
 }
 /* Resources Style */
-.resource-ofcourse{
+.resource-ofcourse, 
+.fav-page-container, 
+.dephome-main{
     margin-top: 2rem;
     margin-right: 4rem;
     margin-bottom: 4rem;
@@ -224,6 +230,7 @@ main > h1{
 .course-audio > .course-audio-title,
 .course-exam-assignement-problemset > .course-exam-assignement-problemset-title,
 .course-additoinal-Resources > .course-additoinal-Resources-title
+.dephome-navigation > .dephome-navigation-name
 {
     border-bottom: solid #b3b3b3 2px;
     margin-bottom: 20px;
@@ -239,7 +246,7 @@ main > h1{
 }
 .course-syllabus > .course-syllabus-content{
     display: flex;
-    height: 50px;
+    height: 60px;
     background-color: #b3b3b3;
     border-radius: 30px;
     border: solid black 1px;
@@ -258,14 +265,22 @@ main > h1{
 .course-book > .course-book-list > .course-one-book{
     display: flex;
     align-items: center;
-    background-color: #b3b3b3;
+    gap: 20px;
     border-radius: 30px;  
 }
+.course-book > .course-book-list > .course-one-book > .book-image img{
+    border-radius: 30px;
+}
 .course-book > .course-book-list > .course-one-book > .book-name-and-info{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     color: black;
     width: 90%;
     text-align: center;
+    background-color: #b3b3b3;
+    border-radius: 30px;
 }
+
 .course-book > .course-book-list > .course-one-book > .book-name-and-info > .name-of-book{
 
 
@@ -278,6 +293,11 @@ main > h1{
     display: flex;
     align-items: flex-start;
     gap: 20px;
+}
+.Video-image iframe{
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
 }
 .course-audio > .course-audio-list{
     display: flex;
@@ -292,11 +312,7 @@ main > h1{
 .course-exam-assignement-problemset > .table-course-exam-assignement-problemset{
 
 }
-.fav-page-container{
-    margin-top: 2rem;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
-}
+
 .fav-college-dep{
     margin-right: 0;
 }
@@ -321,8 +337,52 @@ td ,th{
 }
 .course-additoinal-Resources > .link-to-course-additoinal-Resources > .provided-external-link{
     background-color: #b3b3b3;
-    height: 50px;
+    height: 60px;
+    display: grid;
     width: 100%;
     text-align: center;
     border-radius: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+.welcome-name{
+    height: 260px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    border-radius: 30px;
+    border: black solid 1px;
+}
+.dephome-navigation{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.dephome-main > .dephome-navigation > .dephome-navigation-name{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.dephome-main > .dephome-navigation > .dephome-navigation-name h2{
+    margin-bottom: 10px;
+}
+.dephome-main > .dephome-navigation > .dephome-navigation-link{
+    display: flex;
+    justify-content: space-around;
+}
+.dephome-main > .dephome-navigation > .dephome-navigation-link a{
+    background-color: #b3b3b3;  
+}
+.dephome-main > .dephome-navigation > .dephome-navigation-link > .dephome-navigation-link-width{
+    width: 300px;
+    text-align: center;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
