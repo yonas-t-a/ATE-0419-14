@@ -114,7 +114,7 @@ nav{
 }
 .nav-bottom{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
 }
 /* Departemnt Main content Stayle */
@@ -386,3 +386,53 @@ td ,th{
     align-items: center;
     justify-content: center;
 }
+.depaccount-container{
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+.depaccount-container > .depaccount-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.depaccount-container > .depaccount-photo img{
+    height: 300px;
+    border-radius: 100%;
+    border: 1px solid #b3b3b3;
+}
+.depaccount-container > .depaccount-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.depaccount-form-edit{
+    height: 60px;
+    width: 1000px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.depaccount-form-button{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depaccount-remove-scroll-effect{
+    overflow: hidden;
+}
+.depaccount-form-to-the-left{
+    display: flex;
+    width: 70%;
+    justify-content: end;
+}
+.depaccount-form-to-the-left > .depaccount-form-button{
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+
+   
