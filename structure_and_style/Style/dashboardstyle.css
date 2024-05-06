@@ -22,7 +22,8 @@ nav{
     position: sticky;
     top: 0;
     max-height: 100dvh;
-    background-color: #b3b3b3;
+    background-color: #333333;
+    color: white;
 }
 .nav-list{
     margin: 0;
@@ -44,6 +45,10 @@ nav{
     background-color: white;  /*8:32*/
     position: relative;
 }
+.nav-list li.active a{
+    color: #333333;
+}
+
 .nav-list li:nth-child(1) a{
     view-transition-name: navlink-1;
 }
@@ -76,6 +81,7 @@ nav{
     width: var(--border-radious);
     height: var(--border-radious);
     right: 0;
+    color: #333333;
     background: var(--nav-bg);
 
 }
@@ -92,7 +98,7 @@ nav{
 
 
 .nav-list a{
-    color: black;
+    color: #FBEAEB;
     display: block;
     text-decoration: none;
     position: relative;
@@ -134,8 +140,9 @@ main > h1{
     gap: 2rem;
 }
 .dep-card{
-    background-color: #b3b3b3;
+    background-color: rgb(240, 240, 240);
     /* box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.5); */
+    border:1px solid red;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -162,7 +169,8 @@ main > h1{
 .course-ofdep-header{
     width: auto;
     height: 240px;
-    background-color: #b3b3b3;
+    background-color: white;
+    border: 1px solid red;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -177,11 +185,18 @@ main > h1{
     gap: 30px;
     height: 40px;
 }
-.course-ofdep-searchandsort input{
-    border-radius: 30px;
-    border-color: black;  
+.course-ofdep-searchandsort input,
+.course-ofdep-searchandsort select{
+    border-radius: 30px; 
+    font-size: 20px
 }
-
+.course-ofdep-searchandsort select{
+    font-size: 20px
+}
+.course-ofdep-searchandsort input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+}
 .coures-ofdep-list-of-course {
     display: grid;
     grid-template-rows: repeat(auto, 1fr);
@@ -200,7 +215,8 @@ main > h1{
 .course-ofdep-single-course{
     height: 52px;
     width: auto;
-    background-color: #b3b3b3;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid red;
     text-decoration: none;
     color: black;
     display: inline;
@@ -377,7 +393,9 @@ td ,th{
     justify-content: space-around;
 }
 .dephome-main > .dephome-navigation > .dephome-navigation-link a{
-    background-color: #b3b3b3;  
+    background-color: rgb(240, 240, 240);
+    border: 1px solid red;  
+    color: black;
 }
 .dephome-main > .dephome-navigation > .dephome-navigation-link > .dephome-navigation-link-width{
     width: 300px;
@@ -402,7 +420,7 @@ td ,th{
 .depaccount-container > .depaccount-photo img{
     height: 300px;
     border-radius: 100%;
-    border: 1px solid #b3b3b3;
+    border: 1px solid red;
 }
 .depaccount-container > .depaccount-form form{
     display: flex;
@@ -423,6 +441,11 @@ td ,th{
     justify-content: center;
     align-items: center;
 }
+.depaccount-form input[type="text"],
+.depaccount-form input[type="password"]{
+    padding: 20px;
+}
+
 .depaccount-remove-scroll-effect{
     overflow: hidden;
 }
