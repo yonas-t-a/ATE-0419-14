@@ -12,7 +12,7 @@ body{
 .navigation-container{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    background-color: #b3b3b3;
+    background-color: #333333;;
     width: 100%;
 }
 .navigation-container a{
@@ -22,7 +22,8 @@ body{
     font-size: 20px;
 }
 .navigation-left img{
-    width: 80px;
+    width: 200px;
+    padding: 20px;
 }
 .navigation-right{
     padding: 20px;
@@ -59,15 +60,19 @@ body{
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
 }
+.home-first-text-button-h1{
+    padding: 20px;
+}
 .home-first-text-button-button{
     display: flex;
     gap: 100px;
 }
 .home-first-text-button-button a{
-    background-color: #b3b3b3;
+    background-color: white;
     width: 200px;
     height: 60px;
     border-radius: 30px;
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +82,9 @@ body{
 .home-first-sliding-image{
     display: flex;
     justify-content: center;
+}
+.home-first-sliding-image img{
+    width: 500px;
 }
 /* home second Style */
 .home-second{
@@ -188,10 +196,11 @@ body{
 .footer{
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
-    background-color: #b3b3b3;
+    background-color: #333333;
     padding: 2rem 7rem 2rem 7rem;
     gap: 20px;
     margin-bottom: 0px;
+    color: #FBEAEB;
 }
 .footer-first{
     display: grid;
@@ -214,11 +223,11 @@ body{
 }
 .footer-second-navigation-link a{
     text-decoration: none;
-    color: black;
+    color: #FBEAEB;
     cursor: pointer;
 }
 .footer-first-img img{
-    width: 100px;
+    width: 200px;
 }
 .footer-third-content-one-image img{
     width: 30px;
