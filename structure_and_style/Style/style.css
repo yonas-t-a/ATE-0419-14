@@ -85,6 +85,7 @@ body{
 }
 .home-first-sliding-image img{
     width: 500px;
+    border-radius: 30px;
 }
 /* home second Style */
 .home-second{
@@ -250,10 +251,8 @@ body{
     grid-template-rows: 1fr 7fr;
 }
 .footer-third-content-one{
-    display: grid;
-    grid-template-columns: 1fr 10fr;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    gap: 20px;
     padding: 10px;
 }
 /* about Style */
@@ -266,6 +265,7 @@ body{
     display: grid;
     grid-template-rows: 1fr 3fr;
 }
+
 .about-second{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -283,6 +283,9 @@ body{
 .about-third{
     display: grid;
     grid-template-rows: 1fr 2fr;
+    border: 0.1px solid red;
+    border-radius: 30px;
+    padding: 20px;
 }
 .about-third-list{
     display: grid;
@@ -347,7 +350,9 @@ body{
 .about-fifth-card-one{
     display: grid;
     grid-template-rows: 4fr 1fr 1fr 2fr 1fr;
-    background-color: #b3b3b3;
+    background-color: white;
+    border: 1px solid red;
+    color: black;
     border-radius: 30px;
 }
 .about-fifth-card-one-img{
@@ -432,12 +437,12 @@ body{
 .contactus-first {
     height: 380px;
     margin: 0px 60px 60px;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(image/Peaceful-Snowy-Mountains-At-Night.jpg);
+    border: 2px solid red;
     border-radius: 30px;
 }
 .contactus-second{
@@ -455,8 +460,9 @@ body{
     justify-content: left;
 }
 .contactus-second-info-content{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .contactus-second-info-content-one{
     display: grid;
@@ -469,6 +475,7 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr fr 1fr;
     gap: 50px;
+    padding: 20px;
 }
 .contactus-second-form-first{
     display: grid;
@@ -489,7 +496,7 @@ body{
 .contactus-second-form-third textarea,
 .contactus-second-form-second input[type="text"],
 .contactus-second-form-first input[type="text"]{
-    padding: 10px;
+    padding: 15px;
 }
 .contactus-second-form-second{
     display: grid;
@@ -513,6 +520,10 @@ body{
     height: 50px;
     width: 200px;
     font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid red;
 }
 /* Sign in page */
 .main-border-signin-up {
