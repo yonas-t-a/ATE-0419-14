@@ -112,6 +112,12 @@ body{
     grid-template-rows: 0.5fr 1fr 4fr;
     gap: 1rem;
 }
+.home-third-title{
+    text-align: center;
+}
+.home-third-paragraph{
+    text-align: center;
+}
 .home-third-img-and-title-p-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -127,8 +133,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-.home-third-img-and-title-p-P{
-    text-align: justify;
+.home-third-img-and-title-p-IMG img{
+    width: 300px;
+}
+.home-third-img-and-title-p-P,
+.home-third-img-and-title-p-TITLE{
+    text-align: center;
 }
 /* home forth style */
 .home-fourth{
@@ -147,7 +157,8 @@ body{
 .home-forth-card{
     display: grid;
     grid-template-rows: 3fr 1fr;
-    background-color: #b3b3b3;
+    background-color: white;
+    border: 2px solid red;
     border-radius: 60px;
 }
 .home-forth-card-image-name{
@@ -177,14 +188,16 @@ body{
 }
 .home-fourth-title-button{
     display: flex;
-    gap: 20px;
+    gap: 100px;
     justify-content: center;
 
 }
 .home-fourth-title-button a{
-    background-color: #b3b3b3;
+    background-color: white;
+    border: 1px solid red;
     width: 200px;
     height: 60px;
+    padding: 10px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -424,7 +437,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://healthyresumes.com/wp-content/uploads/2022/10/LinkedIn-Background-Photo-15-1.webp');
+    background-image: url(image/Peaceful-Snowy-Mountains-At-Night.jpg);
     border-radius: 30px;
 }
 .contactus-second{
@@ -510,7 +523,8 @@ body{
     width: fit-content; /* Adjust as needed */
 }
 .signin-continer{
-    background-color: #b3b3b3;
+    background-color: white;
+    border: 2px solid red;
     display: grid;
     grid-template-rows: auto auto auto auto;
     gap: 3rem;
@@ -539,6 +553,7 @@ body{
     height: 50px;
     font-size: 20px;
     border-radius: 30px;
+    border: 1px solid black;
 }
 .signin-continer-second input[type="text"],
 .signin-continer-second input[type="email"],
@@ -561,12 +576,16 @@ body{
     font-size: 20px;
     border-radius: 30px;
     margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid red;
+    cursor: pointer;
 }
 .black{
-    background-color: #b3b3b3;
+    background-color: white;
 }
 .white{
     background-color: white;
+    border: 1px solid red;
     border-radius: 40px;
 }
 a{
